@@ -1,0 +1,118 @@
+Prompt:
+
+Build a full-stack web application similar to SuperBill by DATEV KOINOS SRL, a professional billing and invoicing system for businesses and freelancers.
+
+The platform should include:
+
+1. Core Functionalities
+User Authentication & Roles:
+
+Register/login via email & password, Google & Microsoft sign-in
+
+Roles: Admin, Accountant, Business Owner, Staff
+
+Dashboard:
+
+Overview of invoices, payments, expenses, deadlines
+
+Charts for monthly revenue, expenses, outstanding payments
+
+Invoices Management:
+
+Create, edit, delete invoices (with template customization)
+
+Upload & attach documents
+
+Electronic invoice generation in PDF + XML formats
+
+Email invoices to clients
+
+Quotes & Orders:
+
+Create quotes, convert to invoices
+
+Create purchase orders and sales orders
+
+Payment Tracking:
+
+Record payments (bank, cash, online)
+
+Mark partial or full payments
+
+Automatic overdue reminders via email/SMS
+
+Deadlines & Reminders:
+
+Due dates for invoices & payments
+
+Recurring billing (subscriptions)
+
+Calendar view of deadlines
+
+Reports:
+
+Monthly/Yearly sales report
+
+Taxes summary (GST/VAT)
+
+Downloadable in Excel/PDF
+
+Client & Supplier Management:
+
+Add, edit, delete clients/suppliers
+
+Contact details, payment preferences, notes
+
+Healthcare System Integration (optional):
+
+API integration for health cost submission (like Italy’s Health Card System)
+
+Multi-Currency & Multi-Language Support
+
+2. Technical Stack
+Frontend: React.js + TailwindCSS (modern, responsive UI)
+
+Backend: Node.js (Express.js)
+
+Database: MongoDB or PostgreSQL
+
+Authentication: JWT for API security + OAuth for Google/Microsoft login
+
+Invoice PDF Generation: jsPDF or PDFKit
+
+Email Sending: Nodemailer + SMTP
+
+File Storage: AWS S3 or Cloudinary
+
+Charts: Chart.js or Recharts for analytics
+
+3. Extra Features
+Dark & Light mode
+
+Accountant shared access (read-only or edit access)
+
+Export all data (CSV, Excel, PDF)
+
+Mobile responsive design (works on 375px width)
+
+RESTful API for mobile app integration
+
+Admin Panel to manage users and billing settings
+
+4. Deployment
+Deploy backend on Render or AWS EC2
+
+Deploy frontend on Vercel or Netlify
+
+Use a custom domain with SSL (HTTPS)
+
+5. Design Guidelines
+Modern and minimal design
+
+Easy navigation with sidebar menu
+
+Use primary color palette similar to SuperBill: Blue (#1E88E5), White, Light Grey
+
+Consistent typography with good readability
+
+Deliver full source code with proper file structure, documentation, and installation guide.
